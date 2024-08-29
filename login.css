@@ -1,0 +1,93 @@
+body {
+    background-color: #fdedca;
+    font-family: "Chicle", serif;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 1px #7777;
+}
+
+.container {
+    border: solid 2px gainsboro;
+    margin-top: 100PX;
+    height: auto;
+    width: 800px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #8b6101;
+    margin-top: 10%;
+}
+
+.login input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    border: solid whitesmoke;
+}
+
+.input-text {
+    width: 345px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: "Chicle", serif;
+}
+
+.button-login button {
+    font-family: "Chicle", serif;
+    background-color: #4d2800;
+    border: solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 25px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.buttonhov:hover {
+    background-color: #daaf78;
+    border-color: whitesmoke;
+    transition: 0.5s;
+    color: whitesmoke;
+    text-shadow: 1px 2px #7777;
+}
+
+.link-regis a {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px #7777;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+a:hover {
+    color:#daaf78;
+    transition: 0.5s;
+    text-shadow: 2px 1px #7777;
+}
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    color: aliceblue;
+}

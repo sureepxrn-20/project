@@ -1,0 +1,95 @@
+body {
+    font-family: "Chicle", serif;
+    background-color: #fdedca;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px #fcfcfc;
+}
+.container {
+    border: solid 2px #7c5500;
+    margin-top: 100PX;
+    height:450px;
+    width: 410px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #fdedca;
+}
+
+.register input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    border: solid whitesmoke;
+}
+
+.input-text {
+    font-family: "Chicle", serif;
+    width: 345px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button-regis button {
+    font-family: "Chicle", serif;
+    background-color: whitesmoke;
+    border: solid whitesmoke;
+    color: #000000;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 24px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    margin-top: 35px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.buttonhov:hover {
+    background-color: #4d2800;
+    border-color: whitesmoke;
+    transition: 0.5s;
+    color: whitesmoke;
+    text-shadow: 1px 2px #777777;
+}
+
+a:hover {
+    color: #daaf78;
+    transition: 0.5s;
+    text-shadow: 2px 1px whitesmoke;
+}
+.button-login button {
+    font-family: "Chicle", serif;
+    background-color: whitesmoke;
+    border: solid whitesmoke;
+    color: #000000;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 24px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.buttonlogin:hover {
+    background-color: #4d2800;
+    border-color: whitesmoke;
+    transition: 0.5s;
+    color: whitesmoke;
+    text-shadow: 1px 2px #777777;
+}
